@@ -1,0 +1,35 @@
+# Local .terraform directories and files
+**/.terraform/*
+.terraform*
+
+!.terraformrc
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# own secret vars store.
+personal.auto.tfvars
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Плагины и модули
+.terraform.d/
+.terraform.plugins/
+
+# Переменные
+*.tfvars
+*.tfvars.json
+
+# Лог-файлы
+*.log
+
+# Временные файлы
+.tmp/
